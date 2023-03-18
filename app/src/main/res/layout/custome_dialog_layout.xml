@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:backgroundTint="@color/white"
+    android:minWidth="340dp"
+    app:cardCornerRadius="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtContTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="5dp"
+            android:text="Confirmation"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/txtAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtContTitle"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/amount_added_unutilised_winnings_100"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="13sp" />
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_close_24" />
+
+        <TextView
+            android:id="@+id/txtEntryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtAmount"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="Entry"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtEntryFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtAmount"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="@string/entryFee"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutCoupon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtEntryTitle"
+            android:layout_marginTop="10dp"
+            android:background="#2DE36F0B"
+            android:padding="5dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:drawableStart="@drawable/ic_done"
+                android:drawablePadding="5dp"
+                android:padding="5dp"
+                android:text="Applay 8 coupon"
+                android:textColor="@color/teal_200"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtCouponApply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:padding="5dp"
+                android:text="@string/entryFee"
+                android:textColor="#BF360C"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.384" />
+
+            <TextView
+                android:id="@+id/txtUseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+
+                android:paddingStart="5dp"
+                android:text="Use Your Discount!"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/txtBonusTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutCoupon"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:drawableStart="@drawable/ic_giftcard_24"
+            android:drawableEnd="@drawable/ic_baseline_help_outline_24"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:text="Usable Cash Bouns"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtCashBonus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutCoupon"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="@string/entryFee"
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+        <View
+            android:id="@+id/view01"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/txtBonusTitle"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/txtToPayTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view01"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="To Pay"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtToPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view01"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="@string/entryFee"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtTC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtToPay"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="@string/tc"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnJoinContest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTC"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#78E1EF"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:text="JOIN CONTEST" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

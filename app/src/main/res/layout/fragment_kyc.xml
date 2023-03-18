@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.menusFragment.KycFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/layoutContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txt01"
+                style="@style/txt_16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mobile_verification" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardPhNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt01"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/xtxMobileNo"
+                        style="@style/txt_18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile: 7079021394" />
+
+                    <TextView
+                        style="@style/txt_18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:drawableEnd="@drawable/ic_edit_svgrepo_com"
+                        android:drawablePadding="20dp"
+                        android:text="Verified"
+                        android:textColor="#1D6900" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/txt02"
+                style="@style/txt_16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardPhNo"
+                android:text="@string/kyc_document_verification" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt02"
+                android:layout_margin="5dp"
+                android:visibility="visible"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/xtxK"
+                        style="@style/txt_16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/aadhaar_card" />
+
+                    <TextView
+                        style="@style/txt_18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:text="@string/verified"
+                        android:textColor="#1D6900" />
+
+                    <EditText
+                        android:id="@+id/eTxtAaNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/xtxK"
+                        style="@style/txt_18sp"
+                        android:background="@drawable/box_for_editext"
+                        android:ems="10"
+                        android:hint="Aadhaar NO"
+                        android:inputType="number"
+                        android:minHeight="48dp"
+                        android:padding="10dp"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/txtAnd"
+                        style="@style/txt_16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/eTxtAaNo"
+                        android:layout_centerHorizontal="true"
+                        android:text="And Upload Image" />
+
+                    <LinearLayout
+                        android:id="@+id/layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtAnd">
+
+                        <ImageView
+                            android:id="@+id/imgFront"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:visibility="gone"
+                            tools:src="@tools:sample/avatars" />
+
+                        <TextView
+                            android:id="@+id/txtUploadFront"
+                            style="@style/txt_18sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_upload"
+                            android:gravity="center"
+                            android:minWidth="150dp"
+                            android:text="@string/front" />
+
+                        <ImageView
+                            android:id="@+id/imgBack"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:visibility="gone"
+                            tools:src="@tools:sample/avatars" />
+
+                        <TextView
+                            android:id="@+id/txtUploadBack"
+                            style="@style/txt_18sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_upload"
+                            android:gravity="center"
+                            android:minWidth="150dp"
+                            android:text="Back" />
+
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnSubmit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/layout"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:text="Submit" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/txt03"
+                style="@style/txt_16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardA"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginEnd="34dp"
+                android:layout_marginBottom="34dp"
+                android:gravity="center"
+                android:text="@string/overwritten"
+                android:textColor="@color/grey_font" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardWhy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt03"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="20dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/txtWhy"
+                        style="@style/txt_20sp_bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Why KYC?"
+                        android:textColor="@color/teal_700" />
+
+                    <TextView
+                        android:id="@+id/p01"
+                        style="@style/txt_16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtWhy"
+                        android:drawablePadding="20dp"
+                        android:text="@string/faster_withdrawals"
+                        app:drawableStartCompat="@drawable/ic_baseline_lens_24" />
+
+                    <TextView
+                        android:id="@+id/p02"
+                        style="@style/txt_16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/p01"
+                        android:drawablePadding="20dp"
+                        android:text="@string/higher_deposit_limits"
+                        app:drawableStartCompat="@drawable/ic_baseline_lens_24" />
+
+                    <TextView
+                        android:id="@+id/p03"
+                        style="@style/txt_16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/p02"
+                        android:drawablePadding="20dp"
+                        android:text="@string/end_to_end_security_of_your_account"
+                        app:drawableStartCompat="@drawable/ic_baseline_lens_24" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

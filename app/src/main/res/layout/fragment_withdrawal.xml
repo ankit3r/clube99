@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.menusFragment.WithdrawalFragment">
+
+    <RelativeLayout
+        android:id="@+id/layoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtWB"
+            style="@style/txt_20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/withdraw_balance_x20b9_3000" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtWB"
+            android:visibility="gone"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtBankName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="SBI bank" />
+
+                <TextView
+                    android:id="@+id/txtAcNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtBankName"
+                    android:layout_marginStart="20dp"
+                    android:text="A/C *****************1020" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card0"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="User Name" />
+
+                <TextView
+                    android:id="@+id/txtUpi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtUserName"
+                    android:layout_marginStart="20dp"
+                    android:text="UPI ankit001@airtel" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_below="@id/card01"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtAddBank"
+                style="@style/txt_20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_bank_upi"
+                android:textAllCaps="false"
+                app:drawableEndCompat="@drawable/ic_baseline_double_arrow_24" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card1"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="15dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editTextNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_toStartOf="@+id/btnWithdraw"
+                    android:background="#EEFFF8"
+                    android:drawableStart="@drawable/ic_rupee"
+                    android:ems="10"
+                    android:hint="@string/min_x20b9_100"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnWithdraw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Withdraw" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

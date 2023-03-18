@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "651763625474",
+    "project_id": "clube-99",
+    "storage_bucket": "clube-99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651763625474:android:e7fd837cc55abe90a2011b",
+        "android_client_info": {
+          "package_name": "com.gyanhub.todayclube99"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651763625474-ll88oa0l2jp8eklg6c70il0rb0mlk63k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gyanhub.todayclube99",
+            "certificate_hash": "e7f6f5a3c990e5aeda74036157d0a12cf68cc61e"
+          }
+        },
+        {
+          "client_id": "651763625474-ilfr3mqshkqh0gsj1nnmp81mcig023b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6p_RdzWDNMe-hRz-xUD4udhfW5n1cLcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651763625474-ilfr3mqshkqh0gsj1nnmp81mcig023b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

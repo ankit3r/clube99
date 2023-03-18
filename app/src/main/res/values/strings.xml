@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">TodayClub99</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="buy">buy</string>
+    <string name="luck">Buy lottery tickets at your own risk. Because you can win as well as lose. It all depend your luck</string>
+    <string name="welcome_to_todayclub99">Welcome to TodayClub99</string>
+    <string name="have_a_question_about_your_balance_get_help">Have a question about your balance?  <b>get Help</b></string>
+    <string name="prize_2x">Prize: <b>&#x20B9;170 To &#x20B9;10000</b></string>
+    <string name="view_details_join"><![CDATA[View Details & Join]]></string>
+    <string name="entey_fee_100">Enter Fee : <b> &#x20B9;%1$s </b></string>
+    <string name="you_won_315">You Won : <b> &#x20B9;%1$s </b></string>
+    <string name="prize"><b> &#x20B9;%1$s </b></string>
+    <string name="log_out">Log Out</string>
+    <string name="share_app">Share App</string>
+    <string name="how_to_buy_ticket">How to buy Ticket</string>
+    <string name="help">Help</string>
+    <string name="history">History</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="kyc">KYC</string>
+    <string name="profile_details">Profile Details</string>
+    <string name="mobile_verification">Mobile Verification</string>
+    <string name="kyc_document_verification">KYC Document Verification</string>
+    <string name="overwritten">The Profile details will be overwritten by the Document details once KYC is verified</string>
+    <string name="faster_withdrawals">Faster Withdrawals</string>
+    <string name="higher_deposit_limits">Higher Deposit Limits</string>
+    <string name="end_to_end_security_of_your_account">End to end security of your account</string>
+    <string name="aadhaar_card">Aadhaar Card</string>
+    <string name="verified">Pending</string>
+    <string name="front">Front</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="withdraw_balance_x20b9_3000">Withdraw Balance : ₹3000</string>
+    <string name="add_bank_upi">Add Bank / UPI</string>
+    <string name="enter_account_number">Enter Account Number</string>
+    <string name="confirm_account_number">Confirm Account Number</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="how_to_add_cash">How to Add Cash</string>
+    <string name="how_to_withdraw_winning_cash">How To Withdraw Winning Cash</string>
+    <string name="how_to_do_kyc">How To Do KYC</string>
+    <string name="how_to_use_bonus_balance">How To Use Bonus Balance</string>
+    <string name="how_to_add_bank_and_upi">How To Add Bank And UPI</string>
+    <string name="send_query_and_reports">Send Query And Reports</string>
+    <string name="subject">Subject</string>
+    <string name="massage">Massage</string>
+    <string name="min_x20b9_100">Min ₹100</string>
+    <string name="for_style">for style</string>
+    <string name="today_club_99_lottery">Today Club 99 Lottery</string>
+    <string name="buy_ticket">Buy Ticket</string>
+    <string name="your_ticket">Your Ticket</string>
+    <string name="time_10_10_m">Time : 10:10 M</string>
+    <string name="add_x20b9_100">Add ₹100</string>
+    <string name="min_add_amount_x20b9_100">Min Add Amount ₹100</string>
+    <string name="add">Add</string>
+    <string name="bonus_n_x20b9_100">Bonus\n₹100</string>
+    <string name="your_web_client_id" />
+    <string name="amount_added_unutilised_winnings_100">Amount Added (Unutilised) + Winnings = &#x20B9;%1$s</string>
+    <string name="entryFee">&#x20B9;%1$s</string>
+    <string name="tc">By joining this contest, you accept Fantasy War T&amp;C\'s and Confirm that you are not resident of Andhar Pradesh,
+    Assam, Nagaland, Odisha, Sikkim, or Telengana. I also agree to be contacted by Fantasy War and their partners</string>
+    <string name="enter_bank_name">Enter Bank Name</string>
+
+</resources>

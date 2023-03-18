@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="1dp"
+    android:layout_margin="2dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/Croot"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDBD1B">
+        <TextView
+            android:id="@+id/txtType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTitle"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/ic_drawing"
+            android:backgroundTint="#FF4800"
+            android:gravity="center"
+            android:rotation="-47"
+            android:text="Silver"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            style="@style/txt_20sp_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:text="@string/today_club_99_lottery"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTitle"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/txtType"
+            android:background="@drawable/ic_drawing"
+            android:gravity="center"
+            android:text="Fee\n&#x20B9;99"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtWin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTitle"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/txtPrice"
+            android:background="@drawable/ic_win"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Win\n&#x20B9;170 - &#x20B9;500"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtType"
+            android:layout_marginStart="5dp"
+            android:padding="2dp"
+            android:text="T20C99L50051"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnBuy"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="#FDBD1B"
+            android:src="@drawable/ic_buy" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

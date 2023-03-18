@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".fragment.mainActivityFragments.WalletFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_liquid_cheese"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                style="@style/txt_16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Withdraw Balance"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtMaiBalance"
+                style="@style/txt_32sp_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTitle"
+                android:text="&#x20B9;3200"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/txt_16sp_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:drawableStart="@drawable/ic_safe"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="Your Safe Balannce"
+                android:textColor="#0D47A1" />
+
+            <TextView
+                android:id="@+id/txtTitle2"
+                style="@style/txt_16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMaiBalance"
+                android:text="Added Balance"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtBounsBalance"
+                style="@style/txt_32sp_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTitle2"
+                android:text="&#x20B9;200"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnWithdraw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:text="@string/withdraw"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnWithdraw"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="Add cash"
+                android:textColor="@color/white" />
+
+            <TextView
+                style="@style/txt_18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnAdd"
+                android:textColor="@color/black"
+                android:text="You have total Bonus Balance &#x20B9;140" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <TextView
+            android:id="@+id/txtAddbank"
+            style="@style/txt_20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="86dp"
+            android:drawableEnd="@drawable/ic_baseline_double_arrow_24"
+            android:text="Add Bank And UPI" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView0">
+
+        <TextView
+            android:id="@+id/txtMyT"
+            style="@style/txt_20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="86dp"
+            android:drawableEnd="@drawable/ic_baseline_double_arrow_24"
+            android:text="My Transactions" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView1">
+
+        <TextView
+            android:id="@+id/txtKYC"
+            style="@style/txt_20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="86dp"
+            android:drawableEnd="@drawable/ic_baseline_double_arrow_24"
+            android:text="Kyc Details" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <TextView
+            android:id="@+id/txtRAE"
+            style="@style/txt_20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="86dp"
+            android:drawableEnd="@drawable/ic_baseline_double_arrow_24"
+            android:text="Refer and Earn" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txtHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#3E8A9BAF"
+        android:drawableStart="@drawable/ic_baseline_help_outline_24"
+        android:drawablePadding="10dp"
+        android:padding="5dp"
+        android:text="@string/have_a_question_about_your_balance_get_help"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

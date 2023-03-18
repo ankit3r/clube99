@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtTitleName"
+            style="@style/txt_18sp_bold"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Today Clube99 9 to 10 Am" />
+
+        <TextView
+            android:id="@+id/txtEntryFee"
+            style="@style/txt_16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTitleName"
+            android:text="@string/entey_fee_100" />
+
+        <TextView
+            android:id="@+id/txtWiningAmount"
+            style="@style/txt_16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtEntryFee"
+            android:text="@string/you_won_315" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

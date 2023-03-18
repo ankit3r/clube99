@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.menusFragment.AddBankFragment">
+
+    <RelativeLayout
+        android:id="@+id/layoutContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt0"
+            style="@style/txt_16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Link Bank Account" />
+
+        <LinearLayout
+            android:id="@+id/bankLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt0"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <EditText
+                android:id="@+id/eTxtBankName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                style="@style/txt_18sp"
+                android:hint="@string/enter_bank_name"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/eTxtAcNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                style="@style/txt_18sp"
+                android:hint="@string/enter_account_number"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/eTxtAcNoCon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                style="@style/txt_18sp"
+                android:ems="10"
+                android:hint="@string/confirm_account_number"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/eTxtIFSC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    style="@style/txt_18sp"
+                    android:hint="Enter IFSC Code"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/txt_16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Search IFSC Code" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/eTxtOwnerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/enter_name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <Button
+                android:id="@+id/btnVerify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Verify and proceed" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt2"
+            style="@style/txt_16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bankLayout"
+            android:text="Add UPI ID" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt2"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingEnd="5dp">
+
+            <EditText
+                android:id="@+id/eTxtUpi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Enter UPI ID"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            <TextView
+                android:id="@+id/txtUpiUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnUpiVerify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Verify and proceed" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

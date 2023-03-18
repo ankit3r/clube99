@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/box_for_editext.xml" value="0.192" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/circlr_for_text.xml" value="0.224" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.255" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_baseline_arrow_drop_up_24.xml" value="0.255" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.188" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_baseline_double_arrow_24.xml" value="0.2215" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_baseline_help_outline_24.xml" value="0.2215" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_blob.xml" value="0.1415" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_burst_new_svgrepo_com.xml" value="0.1415" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_buy.xml" value="0.2505" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_close_24.xml" value="0.1735" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_colorful_stingrays.xml" value="0.2215" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_drawing.xml" value="0.1415" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_edit_svgrepo_com.xml" value="0.251" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_google_svgrepo_com.xml" value="0.2215" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_hollowed_boxes.xml" value="0.224" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_liquid_cheese.xml" value="0.2215" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_login.xml" value="0.2035" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_login_night.xml" value="0.2035" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_price_cut.xml" value="0.1415" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_rose_petals.xml" value="0.2215" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_rupee.xml" value="0.192" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_safe.xml" value="0.275" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_sun_tornado.xml" value="0.224" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_upload.xml" value="0.251" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_win.xml" value="0.1885" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/ic_winner.xml" value="0.2215" />
+        <entry key="..\:/TodayClube99/app/src/main/res/drawable/img_btn_cir.xml" value="0.2215" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/activity_details.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/activity_main.xml" value="0.2703125" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/activity_start.xml" value="0.2703125" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/custome_dialog_layout.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/custome_edit_view.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_add_bank.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_add_cash.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_blank.xml" value="0.2703125" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_help.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_helps.xml" value="0.25625" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_history.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_home.xml" value="0.2703125" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_home_details.xml" value="0.2703125" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_kyc.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_login.xml" value="0.2703125" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_menu.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_profile.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_sign_up.xml" value="0.2703125" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_wallet.xml" value="0.2703125" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_winners.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_withdrawal.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/fragment_your_ticket.xml" value="0.2703125" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/home_rc_item_view.xml" value="0.264" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/rc_history_item_view.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/rc_t.xml" value="0.2703125" />
+        <entry key="..\:/TodayClube99/app/src/main/res/layout/wining_rc_view_item.xml" value="0.27395833333333336" />
+        <entry key="..\:/TodayClube99/app/src/main/res/menu/drawer_menu.xml" value="0.2703125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
